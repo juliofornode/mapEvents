@@ -18,7 +18,7 @@ module.exports = {
 				'public/lib/angular-ui-router/release/angular-ui-router.min.js',
 				'public/lib/angular-ui-utils/ui-utils.min.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
-				'http://maps.google.com/maps/api/js', // I'm using a CDN
+				'https://maps.google.com/maps/api/js', // I'm using a CDN
 				'public/lib/ngmap/build/scripts/ng-map.min.js'
 			]
 		},
