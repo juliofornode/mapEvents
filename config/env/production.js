@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://administrador:clavesecreta@ds029824.mongolab.com:29824/map-your-events',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://test:test@ds043714.mongolab.com:43714/mapevents',
 	assets: {
 		lib: {
 			css: [
